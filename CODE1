@@ -1,0 +1,50 @@
+#### AI THERAPIST ####
+name=input('welcome to AI THERAPIST! what is your name?')
+age=int(input('what is your age?'))
+if (age<=12):
+    diary1=input('do you want to talk about how you are feeling?write yes or no or maybe')
+    if (diary1=='yes'):
+        print('dont get shy I will listen to you and help you')
+        d1=input('tell me what do you think about')
+        if ('i should' in d1 or 'never' in d1 or 'sad' in d1 or 'stupid'in d1 or 'alone' in d1 or 'afraid' in d1 or 'i cant' in d1 or 'care' in d1):
+            print('Sometimes your joy is the source of your smile, but sometimes your smile can be the source of your joy.')
+            print('dont get stressed! life gives you hurdles so that you can jump in the air to cross them') 
+            
+    elif (diary1=='no'):
+        print('no problem you can take all the time you want but you feel light headed once you tell me what is going in that mind')
+        d1=input('come on there is no reason to be shy. No one will ever know.Start typing...')
+        if ('i should' in d1 or 'never' in d1 or 'sad' in d1 or 'stupid'in d1 or 'alone' in d1 or 'afraid' in d1 or 'i cant' in d1 or 'understand' in d1):
+            print('you have just started your journey of life, there will be a billion bumps on this road all you have to do smile and learn from ech one of them') 
+    else:
+        print('I am listening...start typing when you are ready')
+        d1=input('what do you keep thinking about')
+        if ('i should' in d1 or 'never' in d1 or 'sad' in d1 or 'stupid'in d1 or 'alone' in d1 or 'always' in d1 or 'i cant' in d1 or 'understand' in d1):
+            print('you have just started your journey of life, there will be a billion bumps on this road all you have to do smile and learn from ech one of them')
+            print('Sometimes your joy is the source of your smile, but sometimes your smile can be the source of your joy.')
+
+            
+if (age>12 and age<19):
+    diary2=input('do you want to talk about how you are feeling?write yes or no or maybe')
+    if (diary2=='yes'):
+        print('you can let your heart out here')
+        e1=input('now start typing and tell me how are yo feeling?')
+        if ('i should' in e1 or 'never' in e1 or 'sad' in e1 or 'stupid'in e1 or 'alone' in e1 or 'afraid' in e1 or 'i cant' in e1 or 'care' in e1
+            or 'stressed' in e1 or 'pressured' in e1 or 'love' in e1 or 'family' in e1 or 'support' in e1):
+            print('there is a qoute- i will love the light for it shows me the way, yet i will endure the darkness for it shows me the stars.')
+            print('life is a mixture of all emotions and you have the right to choose which one you want to live in the moment')
+            print('but you have to choose it wisely and not regret it later on.')
+    elif (diary2=='no'):
+        print('being corked up is not a solution. You have to open up at least to me.')
+        e1=input('now start typing and tell me how are yo feeling?')
+        if ('i should' in e1 or 'never' in e1 or 'sad' in e1 or 'stupid'in e1 or 'alone' in e1 or 'afraid' in e1 or 'i cant' in e1 or 'care' in e1
+            or 'stressed' in e1 or 'pressured' in e1 or 'love' in e1 or 'family' in e1 or 'support' in e1 or 'bad' in e1):
+            print('there is a qoute- i will love the light for it shows me the way, yet i will endure the darkness for it shows me the stars.')
+            print('life is a mixture of all emotions and you have the right to choose which one you want to live in the moment')
+            print('but you have to choose it wisely and not regret it later on.')
+    else:
+        print('I am listening...start typing when you are ready')
+        e1=input(' once you start typing you will figure out your emotions. So start typing...')
+        if ('i should' in e1 or 'never' in e1 or 'sad' in e1 or 'stupid'in e1 or 'alone' in e1 or 'afraid' in e1 or 'i cant' in e1 or 'care' in e1
+            or 'stressed' in e1 or 'pressured' in e1 or 'love' in e1 or 'family' in e1 or 'support' in e1 or 'bad' in e1 or 'confused' in e1 or 'feel' in e1):
+            print('our mind often overthinks even if we think we are not overthinking. Sometimes doing what is right and choosing the right option is what we need.')
+            print('regeretting stuff should not be an option')
